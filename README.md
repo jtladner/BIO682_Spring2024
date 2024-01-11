@@ -64,7 +64,7 @@ Here are several in-demand skills from the National Association of Colleges and 
 
 [Gytis Dudas' Github](https://github.com/evogytis)
 
-Copyright (C) 2023  Jason Ladner
+Copyright (C) 2024  Jason Ladner
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
