@@ -15,26 +15,27 @@
 ## 2. Ensure that you have access to a command-line interface
 - Mac and Linux users do not need to do anything. There is a terminal application built into these operating systems, which provides a command-line interface. 
 - For Windows users, there are a few different options:
-    1. For Windows 10 users, I **highly recommend** that you intall the Bash Shell using the Windows Subsystem for Linux. You can find instructions [here](https://docs.microsoft.com/en-us/windows/wsl/install) or alternatively [here](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/).
+    1. For Windows 10 or 11 users, I **highly recommend** that you intall the Bash Shell using the Windows Subsystem for Linux. You can find instructions [here](https://docs.microsoft.com/en-us/windows/wsl/install) or alternatively [here](https://learn.microsoft.com/en-us/windows/wsl/install-manual) or [here](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/).
     2. For other Windows operating systems, you have two options. Appendix 1 in the PCfB book walks through these options in more detail (though the instructions may be somewhat outdated):
         1. Install [Cygwin](http://www.cygwin.com/)
         2. Install Linux (e.g., [Ubuntu](https://www.ubuntu.com/) or [CentOS](https://www.centos.org/)) within a virtual machine (e.g., [VirtualBox](https://www.virtualbox.org/))
 
 ## 3. GitHub
 - GitHub is a web-based hosting service used primarily for open-source software development, but which can also be used to host additional content
-- Much of the material for this class, including assignment instructions and files will be hosted on GitHub in addition to Bb Learn.
+- Much of the material for this class, including assignment instructions and files will be hosted on GitHub in addition to Canvas.
 - The easiest way to access files for the class will be to clone a copy of the course repository onto your laptop. To do this, please follow these steps:
     1. If you don't already have one, sign up for a **free** GitHub account [here](https://github.com/)
 
-- If you are a Mac or Windows user:
+- If you're a Mac or Windows user:
     1. Download and install the [GitHub Desktop client](https://desktop.github.com/). This will include signing into your GitHub account. 
     2. Sign into your GitHub account within your internet browser
-    3. Open the [BIO682_Spring2023 repository](https://github.com/jtladner/BIO682_Spring2023) within your browser.
+    3. Open the [BIO682_Spring2024 repository](https://github.com/jtladner/BIO682_Spring2024) within your browser.
     4. Click on the green "Code" box in the upper right of the screen and then choose "Open with GitHub Desktop". At this point, you will need to choose a location on your personal computer to locally store your copy of the repository. I keep all of my GitHub repositories in a directory called "GitHub" within "Documents".
-    5. To update the contents of this directory to match the online version (e.g., to download new files that have been added), simply select "PracticalComputing_Spring2022" as your "Current Repository" within the Desktop Client (upper left) and then select "Pull origin" (upper right). If there are no updates available you will not see a "Pull origin" option. Instead you will see "Fetch origin", which will look for differences between your local copy and the online repository. If you have made changes to the existing repository files or added extra files to your repository copy, you will need to [discard](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#3-discarding-changes) or [stash](https://github.blog/2019-06-05-github-desktop-expands-to-support-stashing-and-rebasing/#stashing) those changes prior to pulling the new version.
-    6. **To avoid overwriting files** that you've been editing as a part of each week's assignments, I recommend that you make working copies of the necessary assignment files outside of your GitHub directory. 
+    5. To update the contents of this directory to match the online version (e.g., to download new files that have been added), simply select "BIO682_Spring2024" as your "Current Repository" within the Desktop Client (upper left) and then select "Pull origin" (upper right). If there are no updates available you will not see a "Pull origin" option. Instead you will see "Fetch origin", which will look for differences between your local copy and the online repository. If you have made changes to the existing repository files or added extra files to your repository copy, you will need to [discard](https://docs.github.com/en/desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project-in-github-desktop#discarding-changes) or [stash](https://github.blog/2019-06-05-github-desktop-expands-to-support-stashing-and-rebasing/#stashing) those changes prior to pulling the new version.
+    6. **To avoid overwriting files** that you've been editing as a part of each week's assignments, I recommend that you make working copies of the necessary assignment files **outside of your GitHub directory**. 
+    7. **WSL users**, if you want a copy of the course files within your Ubuntu file system, follow the instructions below for Linux users using your Ubuntu terminal. 
 
-- If you are a Linux user, you will need to clone the repository from the command line:
+- If you're a Linux user, you'll need to clone the repository from the command line (**this is also an option for Mac and WSL users**):
     1. Open a terminal window and check that you have git installed by running the command:
     ```
     which git
@@ -49,7 +50,7 @@
     
     3.  Clone the repository from github
     ```
-    git clone https://github.com/jtladner/BIO682_Spring2023.git
+    git clone https://github.com/jtladner/BIO682_Spring2024.git
     ```
     
     This clones the repository and all of the files contained within, as well as the git history of the repository.
@@ -57,13 +58,13 @@
     4. To get updates from the repository, change into the repository root directory and execute the git command 'pull':
     
     ```
-    cd BIO682_Spring2023
+    cd BIO682_Spring2024
     git pull
     ```
     
      
 
-Copyright (C) 2023  Jason Ladner
+Copyright (C) 2024  Jason Ladner
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
