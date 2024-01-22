@@ -1,4 +1,4 @@
-# Week 2 - Jan. 27th 2023
+# Week 2 - Jan. 26th 2024
 - In this class we will:
     - Learn to use the shell/terminal to interact with your computer
 
@@ -11,7 +11,7 @@ If you're using a Mac and you haven't installed the Xcode command line tools, fo
 
 ### Basic shell configuration instructions
 
-1. Open your command line interface and, just for fun, use it to see whether bash configuration files already exist on your computer. These files should be stored in your home directory, which can be accessed using ```~``` as a shortcut. So, type the following to view all the files present in your home directory:
+1. Open your command line interface and, just for fun, use it to see whether bash or zsh configuration files already exist on your computer. These files should be stored in your home directory, which can be accessed using ```~``` as a shortcut. So, type the following to view all the files present in your home directory:
 
 ```ls -la ~/```
 
@@ -37,27 +37,28 @@ fi
 ```
 
 
-3. Open your .bash_profile (Mac using bash), .zshrc (Mac using zsh) or .bashrc (Linux/Windows using bash) file for editing.
+3. Open your .bashrc (Linux/Windows using bash), .zshrc (Mac using zsh) or .bash_profile (Mac using bash) file for editing.
 
-   - For **Mac** users, if you've installed the bbedit command line tools use the following command to open your configuration file in bbedit (This command will create the file if it doesn't exist):
+   - For **Mac** users, if you've installed the bbedit command line tools use the following command to open your configuration file in bbedit (This command will create the file if it doesn't already exist):
 
-```bbedit ~/.bash_profile```
-
-or
+        - If you use Zsh:
 
 ```bbedit ~/.zshrc```
 
-
-   - Alternatively use this command to open your configuration file in a terminal-based text editor (This command will create the file if it doesn't exist):
-
-```nano ~/.bash_profile```
-
 or
+
+```bbedit ~/.bash_profile```
+
+   - Alternatively use this command to open your configuration file in a terminal-based text editor (This command will create the file if it doesn't already exist):
 
 ```nano ~/.zshrc```
 
+or
 
-   - For **Linux/Windows**, open your .bashrc file instead (This command will create the file if it doesn't exist):
+```nano ~/.bash_profile```
+
+
+   - For **Linux/Windows**, open your .bashrc file instead (This command will create the file if it doesn't already exist):
 
 ```nano ~/.bashrc```
 
