@@ -26,15 +26,15 @@ If you're using a Mac and you haven't installed the Xcode command line tools, fo
 
 2. **Linux/Windows users only.** Open your .bash_profile in a terminal-based text editor. This command will create the file if it doesn't exist. For example:  
 
-```nano ~/.bash_profile```
+    ```nano ~/.bash_profile```
 
    - Add the following lines of code and save your changes. These will ensure that commands within .bashrc will also be run when only your .bash_profile is executed:
 
-```
-if [ -f ~/.bashrc ]; then
-   source ~/.bashrc
-fi
-```
+    ```
+    if [ -f ~/.bashrc ]; then
+       source ~/.bashrc
+    fi
+    ```
 
 
 3. Open your .bashrc (Linux/Windows using bash), .zshrc (Mac using zsh) or .bash_profile (Mac using bash) file for editing.
@@ -101,32 +101,36 @@ fi
 
    - **For Mac users:**
 
-```source ~/.bash_profile```
+        - If you use Zsh:
 
-or
+        ```source ~/.zshrc```
 
-```source ~/.zshrc```
+        or
+
+        - If you use Bash:
+        
+        ```source ~/.bash_profile```
 
 
    - **For Linux/Windows users:**
 
-```source ~/.bashrc```
+        ```source ~/.bashrc```
 
 
 6. To test that noclobber is working as expetced, run the following two commands in succession:
 
-```
-touch test.txt
-cat test.txt >test.txt
-```
+    ```
+    touch test.txt
+    cat test.txt >test.txt
+    ```
 
    - You should receive one of the following messages (or something similar): 
 
-```-bash: test.txt: cannot overwrite existing file```
+    ```-bash: test.txt: cannot overwrite existing file```
 
-or
+    or
 
-```zsh: file exists: test.txt```
+    ```zsh: file exists: test.txt```
 
 
 7. To test the incremental search capabilities, type the letter 's' and hit the up arrow. This should bring up the 'source' command you entered in step 4, as opposed to the last 'cat' command. 
