@@ -66,35 +66,35 @@ fi
 
    - For **Linux/Windows**, open your .bashrc file instead (This command will create the file if it doesn't already exist):
 
-    ```nano ~/.bashrc```
+        ```nano ~/.bashrc```
 
 
 4. Add the following lines of code and save your changes:
 
    - For **Bash** users:
 
-```
-set -o noclobber
+    ```
+    set -o noclobber
 
-# For incremental search capabilities
-bind '"\e[A": history-search-backward'
-bind '"\e[B": history-search-forward'
+    # For incremental search capabilities
+    bind '"\e[A": history-search-backward'
+    bind '"\e[B": history-search-forward'
 
-# Add time stamp to bash history
-HISTTIMEFORMAT="%d/%m/%y %T "
-```
+    # Add time stamp to bash history
+    HISTTIMEFORMAT="%d/%m/%y %T "
+    ```
 
    - For **Zsh** users:
 
-```
-set -o noclobber
+    ```
+    set -o noclobber
 
-# For incremental search capabilities
-bindkey '\eOA' history-beginning-search-backward
-bindkey '\e[A' history-beginning-search-backward
-bindkey '\eOB' history-beginning-search-forward
-bindkey '\e[B' history-beginning-search-forward
-```
+    # For incremental search capabilities
+    bindkey '\eOA' history-beginning-search-backward
+    bindkey '\e[A' history-beginning-search-backward
+    bindkey '\eOB' history-beginning-search-forward
+    bindkey '\e[B' history-beginning-search-forward
+    ```
 
 
 5. In order to execute the newly added commands for use in your current session, run the following command from the terminal window:
