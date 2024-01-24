@@ -43,11 +43,13 @@ fi
 
         - If you use Zsh:
 
-```bbedit ~/.zshrc```
+        ```bbedit ~/.zshrc```
 
-or
+        or
 
-```bbedit ~/.bash_profile```
+        - If you use Bash:
+        
+        ```bbedit ~/.bash_profile```
 
    - Alternatively use this command to open your configuration file in a terminal-based text editor (This command will create the file if it doesn't already exist):
 
