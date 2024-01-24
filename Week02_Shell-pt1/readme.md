@@ -53,16 +53,20 @@ fi
 
    - Alternatively use this command to open your configuration file in a terminal-based text editor (This command will create the file if it doesn't already exist):
 
-```nano ~/.zshrc```
+        - If you use Zsh:
 
-or
+        ```nano ~/.zshrc```
 
-```nano ~/.bash_profile```
+        or
+
+        - If you use Bash:
+        
+        ```nano ~/.bash_profile```
 
 
    - For **Linux/Windows**, open your .bashrc file instead (This command will create the file if it doesn't already exist):
 
-```nano ~/.bashrc```
+    ```nano ~/.bashrc```
 
 
 4. Add the following lines of code and save your changes:
