@@ -160,14 +160,14 @@ If you're using a Mac and you haven't installed the Xcode command line tools, fo
 
 For today's assignment, you should work in the shell within a **copy** of the 'Assignment' directory, which is located within the GitHub directory for this week's class (```Week02_Shell-pt1```) or can be downloaded as a zip file from Canvas. To get there, use the 'cd' command. For example, on my computer, I would use the following:
 
-    ```cd ~/Documents/GitHub/BIO682_Spring2024/Week02_Shell-pt1/Assignment```
+```cd ~/Documents/GitHub/BIO682_Spring2024/Week02_Shell-pt1/Assignment```
 
 Once there type ```ls -1``` and you should see the following list of files and directories (```-1``` results in contents being presented, one per line, but without the extra info you get with ```-l```):
 
-    ```
-    bunchoffiles
-    structure_hidden.pdb
-    ```
+```
+bunchoffiles
+structure_hidden.pdb
+```
 
 1. Parsing ```structure_hidden.pdb```
 
