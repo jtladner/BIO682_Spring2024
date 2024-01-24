@@ -173,11 +173,11 @@ structure_hidden.pdb
 
     1. Use one of the commands we covered today to determine the number of lines contained in ```structure_hidden.pdb```. Generate two different versions of this command, one using a relative file path and the other using an absolute file path. **Enter both commands AND the # of lines in the Assignment Answer Sheet.**
 
-    2. Use a combination of ```head``` and ```tail```, within a single command in order to view **ONLY** lines 4532-4539 of ```structure_hidden.pdb```. **Enter the command you used AND lines 4532-4539 in the Assignment Answer Sheet.**
+    2. Use a combination of ```head``` and ```tail```, within a single command, to view **ONLY** lines 4532-4539 of ```structure_hidden.pdb```. **Enter the command you used AND lines 4532-4539 in the Assignment Answer Sheet.**
 
-    3. Design a simple ```grep``` command that will generate the same output generated in the previous step (i.e., display lines 4532-4539 only). (hint: compare the content on lines 4532-4539 to the rest of the file) **Enter your command in the Assignment Answer Sheet.**
+    3. Design a simple ```grep``` command that will generate the same output you generated in the previous step (i.e., display lines 4532-4539 only). (hint: compare the content on lines 4532-4539 to the rest of the file) **Enter your command in the Assignment Answer Sheet.**
     
-    4. Use the ```man``` command to learn about other options that can be used with ```grep```. Two particularly useful options specify a number of "context lines" to report (-A and -B). These context lines are lines that occur before or after any line that matches the query. Design a command that uses a combination of these two options (-A and -B) to generate the same output that was generated in the two previous steps (i.e., display lines 4532-4539 only). (hint: you will have to change what you're searching for in your grep command) **Enter your command in the Assignment Answer Sheet.**
+    4. Use the ```man``` command to learn about other options that can be used with ```grep```. Two particularly useful options specify a number of "context lines" to report (-A and -B). These context lines are lines that occur before or after any line that matches the query. Design a command that uses a combination of these two options (-A and -B) to generate the same output that was generated in the two previous steps (i.e., display lines 4532-4539 only). Use both -A and -B and neither should be followed by a zero. (hint: you will have to change what you're searching for in your grep command) **Enter your command in the Assignment Answer Sheet.**
 
     5. ```.pdb``` is a file format used to describe the 3D structures of molecules held in the [Protein Data Bank](https://www.rcsb.org/). Each line that **starts with** ```ATOM``` describes the spatial coordinates of an atom that is part of the protein. How many atoms are part of the protein structure described in ```structure_hidden.pdb```? **Enter the command you used and the number of atoms in the Assignment Answer Sheet.**
 
@@ -211,19 +211,19 @@ structure_hidden.pdb
     
     6. How many sequence names **end with** '0'? **Enter the number of sequences and command used in the Assignment Answer Sheet.**
     
-    7. Using ```head```, ```grep``` and some trial and error (i.e. multiple commands while changing parameters) determine how many lines you need to cover the first 500 sequences in their entirety. Then generate a new fasta file containing just the first 500 sequences. (**Make sure you include the entire 500th sequence**). How many **lines** are contained in this new files? **Enter the number of lines and command used in the Assignment Answer Sheet.**
+    7. Using ```head```, ```grep```, and some trial and error (i.e. multiple commands while changing parameters) determine how many lines you need to cover the first 500 sequences in their entirety. Then generate a new fasta file containing just the first 500 sequences. (**Make sure you include the entire 500th sequence**). How many **lines** are contained in this new file? **Enter the number of lines and command used in the Assignment Answer Sheet.**
 
 
 ## Extra fun
 
-Explore for "extra credit" or in the event that you finish all of the other exercises.
+Explore for extra fun or in the event that you finish all of the other exercises.
 
 [Cmd Challenge](https://cmdchallenge.com)
 
 [Additional configuration suggestions](https://natelandau.com/my-mac-osx-bash_profile/)
 
 
-Copyright (C) 2023  Jason Ladner
+Copyright (C) 2024  Jason Ladner
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
