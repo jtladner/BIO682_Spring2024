@@ -138,7 +138,7 @@ If you're using a Mac and you haven't installed the Xcode command line tools, fo
 
 8. For **Bash** users, test the history time stamps by running the following command, which will print the last 10 commands to the screen:
 
-```history | tail -n 10```
+    ```history | tail -n 10```
 
    - In addition to seeing the command number prior to the actual command, you should also see the date and time the command was run. 
 
@@ -148,26 +148,26 @@ If you're using a Mac and you haven't installed the Xcode command line tools, fo
 
 9. **Mac users only.** In order to install the ```rename``` command, you must first install [homebrew](https://brew.sh/). Then run the following command:
 
-```brew install rename```
+    ```brew install rename```
 
 10. **Mac users only.** Check to see if ```curl``` is installed using ```which curl```. If it is, the location of the program will be printed to the screen. If it isn't, nothing will be printed to the screen. If you need to, you can install ```curl``` using homebrew:
 
-```brew install curl```
+    ```brew install curl```
 
 
 
 ### Assignment
 
-For today's assignment, you should work in the shell within a **copy** of the 'Assignment' directory, which is located within the GitHub directory for this week's class (```Week02_Shell-pt1```) or can be downloaded as a zip file from Bb Learn. To get there, use the 'cd' command. For example, on my computer, I would use the following:
+For today's assignment, you should work in the shell within a **copy** of the 'Assignment' directory, which is located within the GitHub directory for this week's class (```Week02_Shell-pt1```) or can be downloaded as a zip file from Canvas. To get there, use the 'cd' command. For example, on my computer, I would use the following:
 
-```cd ~/Documents/GitHub/PracticalComputing_Spring2022/Week02_Shell-pt1/Assignment```
+    ```cd ~/Documents/GitHub/BIO682_Spring2024/Week02_Shell-pt1/Assignment```
 
 Once there type ```ls -1``` and you should see the following list of files and directories (```-1``` results in contents being presented, one per line, but without the extra info you get with ```-l```):
 
-```
-bunchoffiles
-structure_hidden.pdb
-```
+    ```
+    bunchoffiles
+    structure_hidden.pdb
+    ```
 
 1. Parsing ```structure_hidden.pdb```
 
