@@ -27,23 +27,25 @@ This should automatically open the jupyter notebook within your default web brow
 
 2. Downloading and using a precompiled binary
 
-    1. Download a precompiled binary for the [Muscle alignment tool](https://github.com/rcedgar/muscle/releases/tag/v5.1) that is  appropriate for your operating system. After downloading, move this binary into your ```programs``` directory. For those of you using Ubuntu on Windows, please download the Linux version. You can download the binary directly onto your Ubuntu file system using wget from the ternimal: ```wget https://github.com/rcedgar/muscle/releases/download/v5.1/muscle5.1.linux_intel64```. For Mac users, please note that there are two Mac versions, and although I have a silicon processor, it's the Intel version of the binary that works on my system. So, you may need to try both, and if neither work, try using ["Muscle v3"]("https://drive5.com/muscle/downloads_v3.htm") instead.
+    1. Download precompiled binaries for [NCBI's BLAST+ tool](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) that is appropriate for your operating system. For Mac users, I recommend ```ncbi-blast-2.15.0+-x64-macosx.tar.gz```, for Windows/Linux users I recommend ```ncbi-blast-2.15.0+-x64-linux.tar.gz```. For those working in WSL-Ubuntu, it may be easiest to download via your command line using ```curl``` or ```wget```.
     
-    2. Use ```chmod``` to ensure that the newly downloaded binary is executable. Veryify the permissions are set properly using ```ls -l```. Enter the commands you used and the current permissions for the binary in the **Assignment Answer Sheet**.
+    2. After downloading, decompress the archive using ```tar -xf```. This should generate a directory called ```ncbi-blast-2.15.0+```. Inside this directory, locate the ```bin``` directory, which contains all of the binaries. Move the ```makeblastdb``` and ```blastn``` binaries into your ```programs``` directory. 
     
-    3. Within the shell, move into  the ```muscle``` directory, which is located within the ```Assignment``` directory for this week's class (```Week03_Shell-pt2/Assignment```).
+    3. Use ```chmod``` to ensure that these newly downloaded binaries are executable. Veryify the permissions are set properly using ```ls -l```. Enter the commands you used and the current permissions for the binaries in the **Assignment Answer Sheet**.
     
-    4. If you have properly added the ```programs``` directory to your PATH, and the muscle binary is executable, you should be able to use muscle from anywhere on your computer just using the name of the binary (i.e., without specifying the location of the binary). Check that this works by simply typing the name of the binary you downloaded in your shell and hitting ```return```. If things are working as expected, you should see help info for muscle printed to your terminal window. 
+    4. Within the shell, move into  the ```mysteryVirus``` directory, which is located within the ```Assignment``` directory for this week's class (```Week03_Shell-pt2/Assignment```).
     
-    5. Now, use the newly downloaded Muscle binary to align the Coronavirus Spike protein sequences contained in ```Week03_Shell-pt2/Assignment/``` using the following command:
+    5. If you have properly added the ```programs``` directory to your PATH, and the blast binaries are executable, you should be able to use these programs from anywhere on your computer just using the name of the binary (i.e., without specifying the location of the binary). Check that this works by simply typing ```makeblastdb``` in your shell and hitting ```return```. If things are working as expected, you should see some usage information printed to your terminal window. 
     
-    ```muscle5.1.macos_intel64 -align CoV_Spike_MSA_unaligned.fasta  -output  CoV_Spike_MSA_aligned_muscle.fasta```
+    6. Use the newly downloaded makeblastdb binary to create a custom blast database from the sequences contained in ```Week03_Shell-pt2/Assignment/virus_references.fasta``` using the following command:
     
-    **Note 1**: Replace ```muscle5.1.macos_intel64``` with the name of the binary you downloaded. 
+    ```makeblastdb -in virus_references.fasta -dbtype nucl```
     
-    **Note 2**: If you're using [Muscle v3](https://drive5.com/muscle/downloads_v3.htm), the syntax is slightly different: ```muscle3.8.31_i86darwin64 -in CoV_Spike_MSA_unaligned.fasta  -out  CoV_Spike_MSA_aligned_muscle.fasta```
+    7.  Use the newly downloaded blastn binary to compare the mystery virus to the references using the following command:
     
-    6.  **Upload the aligned fasta file** (```CoV_Spike_MSA_aligned_muscle.fasta```) to Bb Learn along with the Assignment Answer Sheet. 
+    ```blastn -query mystery_sequence.fasta -db virus_references.fasta -out out.tsv -outfmt 6```
+    
+    8.  Step #7 will generate a tab-delimted file with information about the best reference match. The name of the best reference match will be in the 2nd column of the output. Please enter this name in your **Assignment Answer Sheet** and **Upload your result file** (```out.tsv```) to Canvas along with the Assignment Answer Sheet. 
 
 
 3. Download and compile source code
