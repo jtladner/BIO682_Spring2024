@@ -1,15 +1,15 @@
-# Class 3 - Feb. 3rd 2023
+# Class 3 - Feb. 2nd 2024
 - In this class we will:
     - Learn to download, install and run open source software
-    - Learn to use for loops in bash to batch run multiple similar commands
-    - Learn to combine bash commands within a file to create shell scripts
+    - Learn to use for loops in the shell to batch run multiple similar commands
+    - Learn to combine shell commands within a file to create shell scripts
 
 ### Required Reading (**Must be completed ahead of time**)
 Practical Computing for Biologists, Chapter 6, 21
 
 ### Preparation for next class
 
-Python scripts are generally simple text files that are executed on the command line, just like the bash shell scripts we will be generating in today's class. However, there are also GUIs available that allow for python scripts (and those written in other programming languages), to be written and executed without needing the command line. We will use this type of interactive interface for our initial introduction to Python programming and also later in the class, when we learn how to use Python to generate figures. The interactive GUI we will use is called Jupyter Notebook (NOT Jupyter Lab!). 
+Python scripts are generally simple text files that are executed on the command line, just like the shell scripts we'll be generating in today's class. However, there are also GUIs available that allow for python scripts (and those written in other programming languages), to be written and executed without needing the command line. We will use this type of interactive interface for our initial introduction to Python programming and also later in the class, when we learn how to use Python to generate figures. The interactive GUI we will use is called Jupyter Notebook (NOT Jupyter Lab!). 
 
 1. Install Jupyter Notebook
 
@@ -17,7 +17,7 @@ There are multiple ways that you can [install the Jupyter Notebook](http://jupyt
 
 After Anaconda has been installed, open a terminal window (Mac/Linux) or the "Anaconda Prompt" (Windows) and run the following command: ```jupyter notebook```
 
-This should automatically open the jupyter notebook within your default browser. 
+This should automatically open the jupyter notebook within your default web browser. 
 
 ### Assignment
 
