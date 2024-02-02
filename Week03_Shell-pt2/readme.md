@@ -50,26 +50,14 @@ This should automatically open the jupyter notebook within your default web brow
 
 3. Download and compile source code
     
-    1. Download the source code for [BWA from GitHub](https://sourceforge.net/projects/bio-bwa/files/) just as shown in today's demo. If desired, move source code to ```source``` directory then decompress with ```tar -xf```. Alternatively, you can download the latest source distribution directly from the command line with: 
+    1. Download the source code for [FLASH from Sourceforge]("https://sourceforge.net/projects/flashpage/files/") just as shown in today's demo. If desired, move source code to ```source``` directory then decompress with ```tar -xf```. 
     
-    ```git clone https://github.com/lh3/bwa.git```
+    2. Within the shell, move into the decompressed source code directory, which should be called ```FLASH-1.2.11```. 
     
-    2. Within the shell, move into the decompressed source code directory. 
+    3. Compile the FLASH program using ```make```. While the compilation is running, you will see a bunch of text printed to the screen, which probably won't make a lot of sense. As long as you don't see "fatal error" in red, every thing is probably OK. 
+        
+    4. To test the compiled binary, run the following command: ```./flash```. This should print some basic usage information to the screen. Copy this information into the **Assignment Answer Sheet**.
     
-    3. Compile the BWA program using ```make```. While the compilation is running, you will see a bunch of text printed to the screen, which probably won't make a lot of sense. As long as you don't see "fatal error" in red, every thing is probably OK. Note: if you have a newer silicon Mac, try the following commands:
-    
-    ```sed -i -e 's/<emmintrin.h>/"sse2neon.h"/' ksw.c```
-    
-    ```wget https://gitlab.com/arm-hpc/packages/uploads/ca862a40906a0012de90ef7b3a98e49d/sse2neon.h```
-    
-    ```make clean all```
-    
-    These commands tell the compiler to use NEON instead of SSE for SIMD operations (don't worry, I don't really know what that means either!)
-    
-    4. To test the compiled binary, run the following command: ```./bwa```. This should print the help documentation to the screen. Copy the first 10 lines of the help info into the **Assignment Answer Sheet**.
-    
-    **Hint**: remember the ```head``` command covered last week.  
-
 
 4. Move into ```Week03_Shell-pt2/Assignment/zika_genomes```. This directory contains 89 fasta files. 88 of these each contain a single Zika virus genome, and each sequence containing line within these fasta files has a maximum length of 70 nucleotides. The other is a test file containing a dummy sequence wrapped 5 nucleotides per line.
 
@@ -91,18 +79,18 @@ This should automatically open the jupyter notebook within your default web brow
     
     **Hint 2**: Make sure that you do not overwrite the original versions of the fasta sequences (i.e., the output.fasta name must be different from the input.fasta name).
     
-    5. Enter your successful for loop in the **Assignment Answer Sheet** and **upload 1 of the output fasta files** to Bb Learn along with the Assignment Answer Sheet.
+    5. Enter your successful for loop in the **Assignment Answer Sheet** and **upload 1 of the output fasta files** to Canvas along with the Assignment Answer Sheet.
 
 5. Move into the ```Week03_Shell-pt2/Assignment``` directory. Within this directory, you will find a file called ```dummy.txt```. Write and execute a simple shell script called ```dummy.sh``` that will:
     1. Create a new directory within ```Week03_Shell-pt2/Assignment``` called "dummy_dir"
     2. Move "dummy.txt" into this new directory
     3. Rename "dummy.txt" to "done.txt"
-    4. **Upload your shell script** to Bb Learn along with the Assignment Answer Sheet. 
+    4. **Upload your shell script** to Canvas along with the Assignment Answer Sheet. 
 
 
 6. Move into ```Week03_Shell-pt2/images```. This directory contains several pdf files. 
     1. Using ```ls``` in combination with regular expressions within your text editor, as described in PCfB p.91-96, generate a shell script called called ```renamer.sh``` that will create renamed copies of all of these pdf files within a new sub-directory called "images\_renamed". For the image files that start with "test\_", the new names should omit "test\_3.6.7\_" from the beginning of the file names and ".txt" from within the file names. For the remaining files, omit the portion of the name that comes prior to the '-' character (and the '-' character itself).
-    2. **Upload your shell script** to Bb Learn along with the Assignment Answer Sheet. 
+    2. **Upload your shell script** to Canvas along with the Assignment Answer Sheet. 
 
 
 
@@ -112,7 +100,7 @@ This should automatically open the jupyter notebook within your default web brow
 
 [Command-line Murder Mystery](https://github.com/veltman/clmystery/)
 
-Copyright (C) 2023  Jason Ladner
+Copyright (C) 2024  Jason Ladner
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
