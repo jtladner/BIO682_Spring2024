@@ -50,7 +50,7 @@ This should automatically open the jupyter notebook within your default web brow
 
 3. Download and compile source code
     
-    1. Download the source code for [FLASH from Sourceforge]("https://sourceforge.net/projects/flashpage/files/") just as shown in today's demo. If desired, move source code to ```source``` directory then decompress with ```tar -xf```. 
+    1. Download the source code for [FLASH from Sourceforge](https://sourceforge.net/projects/flashpage/files/) just as shown in today's demo. If desired, move source code to ```source``` directory then decompress with ```tar -xf```. 
     
     2. Within the shell, move into the decompressed source code directory, which should be called ```FLASH-1.2.11```. 
     
