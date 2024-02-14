@@ -1,6 +1,6 @@
-# Class 5 - Feb. 17th 2023
+# Class 5 - Feb. 16th 2024
 - In this class we will:
-    - Learn how how to access values in a list by position
+    - Learn how how to access values in a list (or characters in a string) by position
     - Learn how to convert between lists and strings
     - Learn how to use 'if', 'elif' and 'else' to make decisions
     - Learn how to use both 'for' and 'while' loops
@@ -10,13 +10,13 @@ Practical Computing for Biologists, Chapter 9
 
 ### Assignment
 
-1. Use Jupyter Notebook to open "PythonPt2-Class5.ipynb". This notebook contains examples of python syntax and today's assignment. Enter your code for each part of the assignment directly within the notebook cells. When you have finished all of the different parts of the assignment, **download your completed notebook as a .pdf and/or an .html file and upload to BbLearn.**
+1. Use Jupyter Notebook to open "PythonPt2-Class5.ipynb". This notebook contains examples of python syntax and today's assignment. Enter your code for each part of the assignment directly within the notebook cells. When you have finished all of the different parts of the assignment, **please delete all non-assignment cells and upload to Canvas.**
 
 ## Extra fun
 
 [More fun with loops](https://towardsdatascience.com/five-cool-python-looping-tips-14f6f44bcfc7)
 
-Copyright (C) 2023  Jason Ladner
+Copyright (C) 2024  Jason Ladner
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
