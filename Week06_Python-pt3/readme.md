@@ -1,4 +1,4 @@
-# Class 6 - Feb. 24th 2023
+# Class 6 - Feb. 23rd 2024
 - In this class we will learn how to:
     - Use list and dictionary comprehension in Python
     - Read input from a file
@@ -11,7 +11,7 @@ Practical Computing for Biologists, Chapters 10-11
 
 ### Assignment
 
-1. Use Jupyter Notebook to open "PythonPt3-Class6.ipynb". This notebook contains examples of python syntax and today's assignment. Enter your code for each part of the assignment directly within the notebook cells. When you have finished all of the different parts of the assignment, **download your completed notebook as a .pdf and/or .html file and upload to BbLearn. Also make sure to upload the file generated as part of Assignment 1.6**
+1. Use Jupyter Notebook to open "PythonPt3-Class6.ipynb". This notebook contains examples of python syntax and today's assignment. Enter your code for each part of the assignment directly within the notebook cells. When you have finished all of the different parts of the assignment, **please delete all non-assignment cells and upload to Canvas. Also make sure to upload the file generated as part of Assignment 1.6**
 
 ## Extra fun
 
@@ -19,7 +19,7 @@ Practical Computing for Biologists, Chapters 10-11
 
 [Various approaches to string formatting](https://docs.python.org/3/tutorial/inputoutput.html)
 
-Copyright (C) 2023  Jason Ladner
+Copyright (C) 2024  Jason Ladner
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
