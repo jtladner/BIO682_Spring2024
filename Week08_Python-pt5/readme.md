@@ -1,4 +1,4 @@
-# Class 8 - March 10th 2023
+# Class 8 - March 8th 2024
 - In this class we will:
     - Learn to use the pandas module to read in data files
     - Practice debugging Python scripts
@@ -11,14 +11,14 @@ Practical Computing for Biologists, Chapters 13,14
 
 #### Part 1 - Pandas
 
-Use Jupyter Notebook to open "PythonPt5-Class8.ipynb". This notebook contains examples of the python syntax asociated using the pandas module, as well as part of today's assignment. Enter your code for each part of the assignment directly within the notebook cells. When you have finished all of the different parts of the assignment, **download your completed notebook as a .pdf or .html file and upload to BbLearn along with the original .ipynb file.**
+Use Jupyter Notebook to open "PythonPt5-Class8.ipynb". This notebook contains examples of the python syntax associated with using the pandas module, as well as part of today's assignment. Enter your code for each part of the assignment directly within the notebook cells. When you have finished all of the different parts of the assignment, **please delete all non-assignment cells and upload your completed notebook (.ipynb) to Canvas.**
 
 
 #### Part 2 - Debugging
 
 For Part 2 of today's assignment, I've provided a set of Python scripts, all containing bugs that either prevent execution or result in unintended results. The buggy scripts have been organized into levels depending on the nature of the bugs. 
 
-##### Level 1: each script containins a single bug that will prevent the script from running
+##### Level 1: each script contains a single bug that will prevent the script from running
 
 1. Assignment 1.1: rev\_comp.py is a script that accepts one or more DNA sequences as arguments on the command line. The reverse complement versions of these sequences will be printed to the screen. Here is an example command:
     
@@ -38,7 +38,7 @@ For Part 2 of today's assignment, I've provided a set of Python scripts, all con
 
     There are four versions of this script. Each contains a single bug. Attempt to run the example command with each version and track down the bug based on the error messages. **Describe each bug and your fix in the Assignment Answer Sheet.**
 
-4. Assignment 1.4: In this exercise, you will revisit wrap\_fasta.py, the Python script we used in Class 3 Assignment 4. As a reminder, this script changes the length of the sequence lines within a fasta file. Here is an example command:
+4. Assignment 1.4: In this exercise, you will revisit wrap\_fasta.py, the Python script we used in Week 3. As a reminder, this script changes the length of the sequence lines within a fasta file. Here is an example command:
 
     ```wrap_fasta.py -f zika_1_1.fasta -o zika_1_1_1000.fasta -w 1000```
 
@@ -72,7 +72,7 @@ For Part 2 of today's assignment, I've provided a set of Python scripts, all con
 
 [Built-in Exceptions](https://docs.python.org/3/library/exceptions.html)
 
-Copyright (C) 2023  Jason Ladner
+Copyright (C) 2024  Jason Ladner
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
