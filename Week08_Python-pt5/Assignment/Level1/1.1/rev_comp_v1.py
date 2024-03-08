@@ -6,7 +6,7 @@ def print_rev_comp(seq):
     revseq = seq[::-1].upper()
     intab = "ACTG"
     outtab = "TGAC"
-    trantab = str.maketrans(intab, outtab)
+    trantab = str.maketrans((intab, outtab)
     print (revseq.translate(trantab))
 
 parser = argparse.ArgumentParser()
