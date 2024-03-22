@@ -49,7 +49,7 @@ Practical Computing for Biologists, Chapters 17-19
 
 ### Pixel Assignments
 
-1. Open Gel.jpg in either Photoshop or GIMP. This file contains an underexposed image of an agarose gel. Play with the levels (as described in PCfB p. 376-368) to see how this changes the appearance of the image. Save the new levels as a distinct layer (Photoshop: Layer > New Adjustment Layer > Levels..., GIMP: Layer > Duplicate Layer, then Colors > Levels...) to make it easy to toggle between the new and original levels.
+1. Open Gel.jpg in either Photoshop or GIMP. This file contains an underexposed image of an agarose gel. Play with the levels (as described in PCfB p. 376-386) to see how this changes the appearance of the image. Save the new levels as a distinct layer (Photoshop: Layer > New Adjustment Layer > Levels..., GIMP: Layer > Duplicate Layer, then Colors > Levels...) to make it easy to toggle between the new and original levels.
 
 2. On your version of Gel.jpg (with the new levels), use the Type/Text tool to add annotations to the image. The bands on the left are from a molecular weight size marker (i.e. a ladder) and the bands on the right are viral genome segments. Feel free to choose whatever labels you want. 
 
