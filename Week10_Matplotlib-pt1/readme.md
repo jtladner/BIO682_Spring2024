@@ -1,4 +1,4 @@
-# Class 10 - March 31st 2023
+# Class 10 - March 29th 2024
 - In this class we will:
     - Learn to use the matplotlib module to create figures using python
 
@@ -7,15 +7,19 @@
 
 ### Assignment
 
-Open the Jupyter notebook called "Class10_Matplotlib.ipynb" and work through the different cells. This notebook will walk you through the syntax of using Matplotlib and includes several related assignments. **Upload the completed notebook to Bb Learn (both as .ipynb and .pdf/.html).**
+Open the Jupyter notebook called "Class10_Matplotlib.ipynb" and work through the different cells. This notebook will walk you through the syntax of using Matplotlib and includes several related assignments. Once you're finished, **please delete all non-assignment cells and upload your completed notebook (.ipynb) to Canvas.**
 
 ## Extra fun
+
+[Learn more about Matplotlib](https://matplotlib.org/)
+
+[Learn about Seaborn](https://seaborn.pydata.org/)
 
 [cmaputil](https://github.com/pnnl/cmaputil)
 
 [gif map](https://towardsdatascience.com/how-to-make-a-gif-map-using-python-geopandas-and-matplotlib-cd8827cefbc8)
 
-Copyright (C) 2023  Jason Ladner
+Copyright (C) 2024  Jason Ladner
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
